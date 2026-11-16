@@ -64,7 +64,7 @@ indoc = "2.0.7"
 insta = { version = "1.44.3", features = ["filters"] }
 interim = { version = "0.2.1", features = ["chrono_0_4"] }
 itertools = "0.15.0"
-jsonschema = { version = "0.46.8", default-features = false }
+jsonschema = { version = "0.61.2", default-features = false }
 libc = { version = "0.2.177" }
 maplit = "1.0.2"
 nix = "0.31.3"
@@ -89,7 +89,7 @@ regex = "1.12.2"
 rpassword = "7.4.0"
 rustix = { version = "1.1.2", features = ["fs"] }
 same-file = "1.0.6"
-sapling-renderdag = "0.2.0"
+sapling-renderdag = "0.3.0"
 sapling-streampager = "0.12.0"
 scm-record = "0.10.1"
 serde = { version = "1.0", features = ["derive", "rc"] }
@@ -110,8 +110,8 @@ textwrap = "0.16.2"
 thiserror = "2.0.17"
 timeago = { version = "0.6.1", default-features = false }
 tokio = { version = "1.48.0", features = ["io-util"] }
-toml = "0.9.8"
-toml_edit = { version = "0.23.7", features = ["serde"] }
+toml = "1.2.1"
+toml_edit = { version = "0.25.19", features = ["serde"] }
 tracing = "0.1.43"
 tracing-chrome = "0.7.2"
 tracing-subscriber = { version = "0.3.22", default-features = false, features = [
